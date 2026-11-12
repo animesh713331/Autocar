@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "id": "place_0001"
+    },
+    {
+      "id": "PLACE_B"
+    }
+  ],
+  "edges": [
+    {
+      "source": "place_0001",
+      "target": "PLACE_B",
+      "weight": 1,
+      "bidirectional": true,
+      "direction": "straight",
+      "reverse_direction": "uturn"
+    }
+  ]
+}

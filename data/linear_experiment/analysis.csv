@@ -1,0 +1,12 @@
+frame_1,frame_2,good_matches,ransac_inliers
+frame_001.jpg,frame_002.jpg,147,39
+frame_002.jpg,frame_003.jpg,121,13
+frame_003.jpg,frame_004.jpg,278,70
+frame_004.jpg,frame_005.jpg,249,147
+frame_005.jpg,frame_006.jpg,148,39
+frame_006.jpg,frame_007.jpg,61,26
+frame_007.jpg,frame_008.jpg,9,0
+frame_008.jpg,frame_009.jpg,0,0
+frame_009.jpg,frame_010.jpg,0,0
+frame_010.jpg,frame_011.jpg,0,0
+frame_011.jpg,frame_012.jpg,0,0

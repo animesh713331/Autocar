@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.bak
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Git
+.git/
+
+# Temporary camera captures and generated previews
+captures/
+contact_sheet.jpg
+preview_frame_*.jpg
+
+# Temporary and accidental files
+.lgd-*
+=3.0.1
+:USERPROFILE*
+
+# Backup archives
+backups/
+
+# Generated model binaries
+models/yolov8n_ncnn_model/*.bin
+models/yolov8n_ncnn_model/*.param
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,33 @@
+[project]
+name = "autocar"
+version = "0.1.0"
+description = "Autonomous obstacle-avoiding car with voice/text-triggered YOLO photo detection (Raspberry Pi 4B, Debian 13 Trixie)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gpiozero>=2.0.1",
+    "opencv-python-headless>=4.10.0.84",
+    "ultralytics>=8.3.0",
+    "ncnn>=1.0.20240410",
+    "numpy>=1.26.4",
+    "flask>=3.0.0",
+]
+# Note: lgpio is intentionally NOT listed here. On the Pi it's installed via
+# apt (python3-lgpio) in scripts/setup_pi.sh and picked up through
+# `uv venv --system-site-packages` — its wheel is large and the PyPI
+# download times out on slow Pi connections.
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/autocar"]
+
+[project.scripts]
+autocar = "autocar.main:run"

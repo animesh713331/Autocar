@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "places": [
+    {
+      "id": "A",
+      "images": [
+        "A_01.jpg",
+        "A_02.jpg",
+        "A_03.jpg",
+        "A_04.jpg",
+        "A_05.jpg"
+      ]
+    },
+    {
+      "id": "C",
+      "images": [
+        "C_01.jpg",
+        "C_02.jpg",
+        "C_03.jpg",
+        "C_04.jpg",
+        "C_05.jpg"
+      ]
+    },
+    {
+      "id": "B",
+      "images": [
+        "B_01.jpg",
+        "B_02.jpg",
+        "B_03.jpg",
+        "B_04.jpg",
+        "B_05.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "id": "A"
+    },
+    {
+      "id": "C"
+    },
+    {
+      "id": "B"
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "C",
+      "bidirectional": true
+    },
+    {
+      "source": "C",
+      "target": "B",
+      "bidirectional": true
+    }
+  ]
+}
